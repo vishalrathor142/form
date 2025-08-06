@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Student Details</title>
+    <style>
+        button {
+            background-color: rgba(0, 128, 0, 0.468);
+            color: white;
+            border-color: white;
+            border-style: hidden;
+            width: 87px;
+            height: 22px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+
+
+        body {
+            background-image: url(vishal8.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        form {
+            color: rgb(0, 0, 0);
+            font-size: 17.5px;
+            font-family: monotype;
+            margin: 15px;
+
+        }
+
+        label {
+            background: transparent;
+        }
+
+        table {
+            text-align: center;
+            border-style: hidden;
+            background-color: rgba(0, 0, 0, 0.468);
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <center>
+        <br><br><br><br>
+        <table border="0px">
+            <tr>
+                <th style="font-family: georgia; color:rgb(255, 255, 255);font-size:34px;">
+                    <u> <br>STUDENT DETAILS<br><br></u>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+
+                        <b><label for="first">First Name :-</label>
+                            <input type="text" name="first" style="height:20px;width:150px;">
+                            <label for="last">Last Name :-</label>
+                            <input type="text" name="last" style="height:20px;width:150px;"><br>
+                            <br> <label for="mobile">Mobile No :-</label>
+                            <input type="text" name="mobile" style="height:20px;width:150px;">
+                            <label for="email">E-Mail :-</label>
+                            <input type="email" name="email" style="height:20px;width:150px;"><br>
+                            <br><label for="select">Course :-</label>
+                            <select style="height:20px;width:150px;">
+                                <option value="item select">B.tech</option>
+                                <option value="item select">BA</option>
+                                <option value="item select">BBA</option>
+                                <option value="item select">B.Com</option>
+                                <option value="item select">LLB</option>
+                                <option value="item select">Ba.LLB</option>
+                                <option value="item select">Bcom.LLB</option>
+                                
+                            </select><br>
+                            <br><label for="area">Suggestion :-</label><br>
+                            <textarea name="area" id="area" cols="40" rows="10"></textarea><br></b>
+                        <p id="thank"></p>
+                        <script>
+                            function let() {
+                                alert("Thank You")
+                            }
+                        </script>
+                        <b><button onclick="let()">Submit</button></b>
+                        &nbsp;&nbsp;&nbsp;<b><input type="reset" value="Reset" style="background-color: rgba(0, 0, 255, 0.468);color: white;border-color: white;border-style:hidden;width:87px;height:22px; border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;"></b>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+</body>
+
+</html>
